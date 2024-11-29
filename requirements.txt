@@ -1,0 +1,39 @@
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.0
+Pillow==9.5.0  # More stable version
+django-filter==23.3.0
+psycopg2-binary==2.9.9
+channels==4.0.0
+channels-redis==4.1.0
+daphne==4.0.0
+redis==5.0.1
+asgiref==3.7.2
+
+# Email and Security Dependencies
+python-dotenv==1.0.0  # For environment variable management
+secure-smtplib==0.1.1  # Enhanced SMTP security
+email-validator==2.1.0  # Email validation
+
+# Existing dependencies
+attrs>=23.2.0
+autobahn==23.6.2
+automat==22.10.0
+cffi==1.16.0
+constantly==15.1.0
+cryptography==41.0.5
+hyperlink==21.0.0
+idna>=3.7,<4.0
+incremental==22.10.0
+msgpack==1.0.7
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycparser==2.21
+pyopenssl==23.3.0
+service-identity==23.1.0
+six==1.16.0
+twisted==23.10.0
+txaio==23.1.1
+typing-extensions>=4.11.0,<5.0
+zope.interface==6.1
